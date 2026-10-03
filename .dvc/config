@@ -1,0 +1,4 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = /Users/egor/dvc_storage/ProdMeth_1Pr
