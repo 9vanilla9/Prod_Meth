@@ -1,0 +1,15 @@
+# Виртуальное окружение
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Модели: большие бинарные файлы не храним в git
+models/*.joblib
