@@ -23,7 +23,7 @@ Lab1/
 └── README.md
 ```
 
-_Скриншот структуры проекта:_ <!-- вставить скриншот -->
+![Структура проекта](reports/screenshots/structure.png)
 
 ## Шаги
 
@@ -64,9 +64,9 @@ python src/train.py
 | Accuracy (тест) | 0.86 |
 | ROC-AUC (тест) | 0.9297 |
 
-_Скриншот метрик:_ <!-- вставить скриншот -->
+![Метрики модели](reports/screenshots/metrics.png)
 
-_Скриншот `dvc status`:_ <!-- вставить скриншот -->
+![Результат dvc status](reports/screenshots/dvc_status.png)
 
 ## Выводы
 
