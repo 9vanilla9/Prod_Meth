@@ -52,7 +52,7 @@ def main():
         X, y, test_size=0.2, stratify=y, random_state=RANDOM_STATE
     )
 
-    cat_cols = X.select_dtypes(include="object").columns.tolist()
+    cat_cols = X.select_dtypes(exclude="number").columns.tolist()
     # Новый признак от FeatureProduct тоже числовой — добавляем его в список
     num_cols = X.select_dtypes(include="number").columns.tolist() + ["num_2_x_num_3"]
 
