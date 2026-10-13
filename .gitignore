@@ -1,0 +1,14 @@
+# Общие правила для всех работ (у каждой папки есть и свой .gitignore)
+
+# macOS
+.DS_Store
+
+# Виртуальные окружения
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
