@@ -1,0 +1,18 @@
+# Виртуальное окружение
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Модели и бинарные артефакты
+*.pkl
+
+# macOS
+.DS_Store
+
+# Данные в data/raw версионируются через DVC:
+# data/raw/.gitignore создаётся командой `dvc add` автоматически
